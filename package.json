@@ -4,6 +4,7 @@
   "description": "A bot to send alert in Whatsapp",
   "main": "src/index.js",
   "scripts": {
+    "start": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/The-Kevin/botW#readme",
   "dependencies": {
+    "chromedriver": "^88.0.0",
     "selenium-webdriver": "^4.0.0-beta.1"
   },
   "devDependencies": {
