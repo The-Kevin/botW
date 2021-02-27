@@ -1,0 +1,19 @@
+{
+  "name": "botw",
+  "version": "0.0.1",
+  "description": "A bot to send alert in Whatsapp",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Kevin/botW.git"
+  },
+  "author": "Kevin Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Kevin/botW/issues"
+  },
+  "homepage": "https://github.com/The-Kevin/botW#readme"
+}
