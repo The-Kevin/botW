@@ -16,8 +16,12 @@ async function Start(){
     try{
         await driver.get(link.url);
         await driver.manage().setTimeouts( { implicit: 30000 } );
-        const nameContat = await (await driver.findElement(By.className('_35k-1 _1adfa _3-8er'))).getText()
-       console.log(nameContat)
+        const nameContat = await driver.findElements(By.xpath("//div[@class='JnmQF _3QmOg']//span[@*]"));
+  
+        for(let obj in nameContat){
+            nameContat[obj].click();
+            console.log('pontinho')
+        }
         
     }catch(error){
         console.log('building error code');
